@@ -124,17 +124,17 @@ A representation of the user can help designers understand the scale of their wo
 src="../assets/resources/mystery-of-duvall-drive/constructing-the-house/scale-outside.png"
 />
 
-### Grayboxing
+### Greyboxing
 
-Grayboxing is a level design process where environments are built with
+Greyboxing is a level design process where environments are built with
 **placeholder** art. Once a level is created, it can be playtested and evaluated
 for gameplay, scale, and visuals. Final art assets can then be produced to
 replace the graybox assets.
 
 Studio's [Toolbox](../projects/assets/toolbox.md) and [solid modeling
 tools](/parts/solid-modeling) are perfect for
-grayboxing when designing and building your experience. Notice the usage of
-grayboxing in the Roblox showcase [The Mystery Of Duvall
+greyboxing when designing and building your experience. Notice the usage of
+greyboxing in the Roblox showcase [The Mystery Of Duvall
 Drive](/resources/the-mystery-of-duvall-drive).
 
 <GridContainer numColumns="2">
@@ -166,13 +166,13 @@ a part or MeshPart.
 - **Parts** are built-in shapes such as blocks, spheres, and cylinders that can
   be used as-is or combined using [solid
   modeling](/parts/solid-modeling). Use parts for
-  grayboxing or simple architectural elements like walls and floors.
+  greyboxing or simple architectural elements like walls and floors.
 
 - **MeshParts** are imported 3D assets used for complex architectural objects
   and props. They also support `Class.SurfaceAppearance`, which permits advanced
   graphic options such as normal maps.
 
-In the following image, parts were used to construct the walls, floors,
+In the following image, parts were used to construct the walls, floors, and
 railings. All other objects like candles and bookshelves are `Class.MeshPart`
 objects. For more information, see [Meshes](../parts/meshes.md) and [External
 Modeling](/art/modeling).
@@ -206,7 +206,7 @@ building:
   include a tree that's duplicated many times in an environment. If a developer
   needs to make a change, such as swap textures for the tree, it can be updated
   once in the package instead of for each individual instance.
-- Package make **grayboxing** quicker. A package can start with graybox assets,
+- Packages make **greyboxing** quicker. A package can start with graybox assets,
   and eventually be replaced with final art assets. When assets are replaced,
   they retain all original positions and orientations.
 
